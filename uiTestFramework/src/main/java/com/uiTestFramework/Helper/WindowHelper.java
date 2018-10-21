@@ -120,6 +120,7 @@ public class WindowHelper {
 		log.info("navigating back");
 
 		driver.navigate().back();
+		
 
 	}
 

@@ -237,7 +237,7 @@ public class WaitHelper {
 
 	/**
 
-	 * 
+	 * waiit for element visibilityOf using fluent wait
 
 	 * @param element
 
@@ -247,7 +247,7 @@ public class WaitHelper {
 
 	 */
 
-	public WebElement waitForElement(WebElement element, int timeOutInSeconds, int pollingEveryInMiliSec){
+	public WebElement waitForElementFluentWait(WebElement element, int timeOutInSeconds, int pollingEveryInMiliSec){
 
 		Wait<WebDriver> fwait = getfluentWait(timeOutInSeconds, pollingEveryInMiliSec);
 
