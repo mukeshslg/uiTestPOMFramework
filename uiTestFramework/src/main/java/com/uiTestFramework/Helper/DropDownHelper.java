@@ -10,7 +10,7 @@ import org.openqa.selenium.support.ui.Select;
 
 public class DropDownHelper {
 	private WebDriver driver;
-	private static Logger log = LoggerHelper.getLogger(VerificationHelper.class);
+	private static Logger log = LoggerHelper.getLogger(DropDownHelper.class);
 	public DropDownHelper(WebDriver driver) {
 		this.driver = driver;
 		log.info("**DropDownHelper object created**");
