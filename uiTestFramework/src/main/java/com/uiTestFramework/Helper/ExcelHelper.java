@@ -38,6 +38,7 @@ public class ExcelHelper {
 					switch (cell.getCellTypeEnum()) {
 					case STRING:
 						testdata[irow-1][icell-1]=cell.getStringCellValue();
+						System.out.println(cell.getDateCellValue());
 						break;
 					case NUMERIC:
 						testdata[irow-1][icell-1]=cell.getNumericCellValue();
@@ -48,7 +49,6 @@ public class ExcelHelper {
 					case FORMULA:
 						testdata[irow-1][icell-1]=cell.getCellFormula();
 						break;		
-						
 					default:log.info("NO MATCH  ENUM TYPE FOUND");
 						break;
 					}
