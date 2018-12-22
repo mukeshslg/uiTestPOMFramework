@@ -12,6 +12,7 @@ import com.uiTestFramework.Helper.ResourceHelper;
 public class FirefoxBrowser {
 
 public FirefoxOptions getFirefoxOptions() {
+	
 	DesiredCapabilities firefoxCapabilities=DesiredCapabilities.firefox();
 	firefoxCapabilities.setJavascriptEnabled(true);
 	

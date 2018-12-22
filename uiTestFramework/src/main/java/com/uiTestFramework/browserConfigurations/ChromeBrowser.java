@@ -9,6 +9,7 @@ import com.uiTestFramework.Helper.ResourceHelper;
 
 public class ChromeBrowser {
 	
+	
 	public ChromeOptions getChromeOptions() {
 		ChromeOptions option=new ChromeOptions();
 		option.addArguments("--disable-popup-blocking");

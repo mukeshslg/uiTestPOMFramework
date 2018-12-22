@@ -1,6 +1,6 @@
 package com.uiTestFramework.browserConfigurations;
 
-public enum BrowserFlavour {
+public enum BrowserFlavour{
 	firefox,
 	iexplorer,
 	chrome
