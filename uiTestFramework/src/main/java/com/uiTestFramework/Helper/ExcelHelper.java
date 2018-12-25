@@ -88,6 +88,7 @@ public class ExcelHelper {
 				FileOutputStream fout=new FileOutputStream(new File(excelPath));
 				workbook.write(fout);
 				fout.close();
+				log.info("excel is updated with status:"+testCaseStatus);
 				break;
 			}
 			

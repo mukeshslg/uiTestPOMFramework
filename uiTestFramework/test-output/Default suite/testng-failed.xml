@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.uiTestFramework.testScripts.SampleTest1">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="f3"/>
+          <include name="ASuit"/>
+          <include name="afterMethod"/>
+          <include name="f2"/>
+          <include name="beforeSuite"/>
+          <include name="beforeclass"/>
+        </methods>
+      </class> <!-- com.uiTestFramework.testScripts.SampleTest1 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

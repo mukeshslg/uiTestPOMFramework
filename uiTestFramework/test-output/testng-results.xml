@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="309" started-at="2018-12-25T11:55:48Z" finished-at="2018-12-25T11:55:48Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="309" started-at="2018-12-25T11:55:48Z" finished-at="2018-12-25T11:55:48Z">
+      <class name="com.uiTestFramework.testScripts.SampleTest001">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.uiTestFramework.testScripts.SampleTest001@1bce4f0a]" name="beforeSuite" is-config="true" duration-ms="186" started-at="2018-12-25T17:25:48Z" finished-at="2018-12-25T17:25:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeclass()[pri:0, instance:com.uiTestFramework.testScripts.SampleTest001@1bce4f0a]" name="beforeclass" is-config="true" duration-ms="2" started-at="2018-12-25T17:25:48Z" finished-at="2018-12-25T17:25:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.uiTestFramework.testScripts.SampleTest001@1bce4f0a]" name="beforeMethod" is-config="true" duration-ms="8" started-at="2018-12-25T17:25:48Z" finished-at="2018-12-25T17:25:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.uiTestFramework.testScripts.SampleTest001.test0001()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test0001()[pri:0, instance:com.uiTestFramework.testScripts.SampleTest001@1bce4f0a]" name="test0001" duration-ms="4" started-at="2018-12-25T17:25:48Z" finished-at="2018-12-25T17:25:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test0001 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.uiTestFramework.testScripts.SampleTest001@1bce4f0a]" name="afterMethod" is-config="true" duration-ms="282" started-at="2018-12-25T17:25:48Z" finished-at="2018-12-25T17:25:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test0001 status=SUCCESS method=SampleTest001.test0001()[pri:0, instance:com.uiTestFramework.testScripts.SampleTest001@1bce4f0a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.uiTestFramework.testScripts.SampleTest001 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
